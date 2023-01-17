@@ -1,5 +1,5 @@
 function solution(balls, share) {
-    return Math.round((result(balls))/(result(balls-share) * result(share))) ;
+    return Math.round((result(balls))/(result(balls-share) * result(share)));
 }
 
 function result(num){
