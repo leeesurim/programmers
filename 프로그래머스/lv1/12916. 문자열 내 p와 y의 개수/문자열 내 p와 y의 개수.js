@@ -1,5 +1,4 @@
 function solution(s){
-    var answer = true;
+    return [...s.toUpperCase()].filter(str => str === "P").length === [...s.toUpperCase()].filter(str => str === "Y").length
 
-    return [...s].filter(str => str === "p" || str === "P").length === [...s].filter(str => str === "y" || str === "Y").length
 }
